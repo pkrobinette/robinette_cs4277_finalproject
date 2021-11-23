@@ -1,1 +1,1 @@
-# robinette_cs4277_finalproject
+# Steganography with Generative Adversarial Networks (GANs)

@@ -1,6 +1,12 @@
 # Steganography with Generative Adversarial Networks (GANs)
 
-Steganography is the practice of hiding secret messages in plain site. This method can be used as means for communication and also as an attack vector for cyberattacks. This work, uses generative adversarial networks (GANs) to hide "messages" as images resembling the MNIST datset.
+Steganography is the practice of hiding secret messages in plain site. This method can be used as a means for communication and also as an attack vector for cyberattacks. This work uses generative adversarial networks (GANs) to hide "messages" as images resembling the MNIST datset.
+
+### GANs
+Generative Adversarial Networks (GANs) consist of a generator and a discriminator. The **generator** learns how to generate unique images that resemble the original training set by updating a probability distribution of the training set during training. The generator takes in random noise, or a latent space, and outputs a generated image that resembles the original set. The goal of the generator is to generate images that can fool the discriminator into thinking that they are from the original set.
+
+The **discriminator** learns how to distinguish between fake images and real images. It takes a set of real and generated images as inputs and returns a set of labels marking the inputs as real or fake. A diagram of a GAN is shown below.
+
 
 ## Installation
 1. Download or clone repository locally

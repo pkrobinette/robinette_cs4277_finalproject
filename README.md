@@ -33,13 +33,16 @@ To test the GAN, run:
 ![Real and Fake](results/results.png)
 
 ## Files and Directories
-- MNIST: MNIST dataset
-- results: result images
-- saved_models: generator and discriminator trained networks, training info json
+- *MNIST*: MNIST dataset
+- *results*: result images
+- *saved_models*: generator and discriminator trained networks, training info json
 - `Networks.py`: Neural Network classes for the generator and descriminator
 - `SecretGAN.py`: Stegaongraphy GAN class
 - `train_secretGAN.py`: train the GAN
 - `test_secretGAN.py`: test the network and compare results
 - `train_secretGAN.ipynb`: jupyter notebook to run the training
+
 ## Notes
+- Training takes a while. If just wanting to view results, run the `test_secretGAN.py`.
+- The `test_secretGAN.py` is set up to run from the *saved_models* folder. If testing local training, update the *saved_models* folder.
 

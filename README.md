@@ -5,3 +5,11 @@ Steganography is the practice of hiding secret messages in plain site. This meth
 ## Installation
 Download the yaml.
 
+## To Run
+
+## Results
+
+## Files
+
+## Notes
+

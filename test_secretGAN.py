@@ -45,7 +45,7 @@ if __name__ == "__main__":
     #
     # Generating examples
     #
-    net.compare_images("results")
+    net.compare_images()
     #
     # Plot loss curves from training
     #
@@ -55,4 +55,4 @@ if __name__ == "__main__":
     net.logger['loss_d'] = data['loss_discriminator']
     net.logger['loss_g'] = data['loss_generator']
 
-    net.plot_training('training_curves')
+    net.plot_training()

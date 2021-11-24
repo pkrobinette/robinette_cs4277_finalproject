@@ -14,6 +14,8 @@ The **discriminator** learns how to distinguish between fake images and real ima
 2. Navigate to project directory in terminal
 3. Set up conda environment:
 - `conda env create -f environment.yml`
+4. Activate the environment:
+- `conda activate gans`
 
 ## To Run
 To train the GAN, run:

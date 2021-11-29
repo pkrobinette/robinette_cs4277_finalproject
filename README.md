@@ -56,3 +56,10 @@ To test the GAN, run:
 - Training takes a while. If just wanting to view results, run the `test_secretGAN.py`.
 - The `test_secretGAN.py` is set up to run from the *saved_models* folder. If testing local training, update the *saved_models* folder.
 
+## Resources
+- https://www.youtube.com/watch?v=TWEXCYQKyDc
+- https://arxiv.org/pdf/1901.03892.pdf
+- https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/
+- https://www.researchgate.net/publication/346428479_The_secure_steganography_for_hiding_images_via_GAN
+- https://medium.com/ai-society/gans-from-scratch-1-a-deep-introduction-with-code-in-pytorch-and-tensorflow-cb03cdcdba0f
+
